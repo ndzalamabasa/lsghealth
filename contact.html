@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
+      integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA=="
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="shortcut icon" href="/images/lsg.ico" type="image/x-icon" />
+    <title>Contact Us</title>
+  </head>
+  <body>
+    <nav>
+      <div class="container">
+        <ul class="flex flex-2 white container mobile-menu">
+          <li>
+            <a href="/"
+              ><img
+                src="/images/lsg_logo.png"
+                alt="Lesego_health_services_logo"
+                role="button"
+                aria-roledescription="Home page"
+            /></a>
+          </li>
+          <li class="menu primary" aria-label="Menu button"></li>
+        </ul>
+
+        <ul class="desktop-menu py-2">
+          <li class="py-1 container">
+            <a
+              href="/"
+              class="primary"
+              role="button"
+              aria-roledescription="Home page"
+              >Home</a
+            >
+          </li>
+          <li class="py-1 container">
+            <a
+              href="about"
+              class="primary"
+              role="button"
+              aria-roledescription="About us page"
+              >About Us</a
+            >
+          </li>
+          <li class="py-1 container">
+            <a
+              href="/#services"
+              class="primary"
+              role="button"
+              aria-roledescription="Services page"
+              >Our Services</a
+            >
+          </li>
+          <li class="py-1 container" id="active">
+            <a
+              href="contact"
+              class="primary"
+              role="button"
+              aria-roledescription="Contact us page"
+              >Contact Us</a
+            >
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <main class="contact-us main-content">
+      <div class="heading">
+        <div class="topic">
+          <h1 class="primary center container">Contact Us</h1>
+        </div>
+      </div>
+      <div class="contact-details">
+        <section class="phone container center py-0">
+          <h2 >Call or Email Us</h2>
+          <ul class="call py-1">
+            <li class="dark">
+              <span><strong>E-Mail:</strong> </span
+              ><a href="mailto:medicals@lsghealth.co.za" class="dark-accent u"
+                >medicals@lsghealth.co.za</a
+              >
+            </li>
+            <li class="dark">
+              <span><strong>Phone:</strong> </span
+              ><a href="tel:+27828409187" class="dark-accent py-0"
+                >+27 82 840 9187</a
+              >
+              <br />
+              <span>OR</span><br /><a
+                href="tel:+27822005908"
+                class="dark-accent"
+                >+27 82 200 5908</a
+              >
+            </li>
+          </ul>
+
+          <h2 class="dark u py-1">Visit Our Offices</h2>
+          <ul class="">
+            <li class="dark u py-0"><strong>North West</strong></li>
+            <li>
+              <a href="#" class="dark-accent"
+                >No. 83 Beneden St, Rustenburg Oos-Einde, <br />
+                Rustenburg, 2999</a
+              >
+            </li>
+            <li><br /></li>
+            <li class="blue u py-0"><strong>Limpopo</strong></li>
+            <li>
+              <a href="#" class="dark-accent"
+                >NO: 3 Cathson Building, Botha Street<br />Northam, Limpopo,
+                0360</a
+              >
+            </li>
+          </ul>
+        </section>
+        <section class="mail container center py-2">
+          <form action="message.php" method="POST">
+            <div class="message">
+              <h2 class="dark u">Send A Message</h2>
+              <p class="py-1 dark-accent">
+                Required fields are indicated by <span>*</span>
+              </p>
+              <ul class="form-control py-1">
+                <li>
+                  <label for="name" class="hidden">Name</label>
+                  <input
+                    type="text"
+                    name="name"
+                    id="name"
+                    placeholder="Name*"
+                    required
+                    class="input"
+                  />
+                </li>
+                <li>
+                  <label for="phone" class="hidden">Phone</label>
+                  <input
+                    type="tel"
+                    name="phone"
+                    id="phone"
+                    placeholder="Phone*"
+                    required
+                    class="input"
+                  />
+                </li>
+                <li>
+                  <label for="email" class="hidden">Email</label>
+                  <input
+                    type="email"
+                    name="email"
+                    id="email"
+                    placeholder="E-mail*"
+                    required
+                    class="input"
+                  />
+                </li>
+
+                <li>
+                  <label for="msg" class="hidden">Message</label>
+                  <textarea
+                    name="message"
+                    id="msg"
+                    rows="5"
+                    placeholder="Message*"
+                    required
+                    class="input"
+                  ></textarea>
+                </li>
+              </ul>
+
+              <input type="submit" value="SEND" name="send" class="light" />
+            </div>
+          </form>
+        </section>
+      </div>
+
+      <div class="container pyt-5">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14385.697912621577!2d27.24304!3d-25.65722!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xa3f75e0fddeb0409!2sLESEGO%20HEALTH%20SERVICES!5e0!3m2!1sen!2sza!4v1643173389286!5m2!1sen!2sza" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+      </div>
+    </main>
+
+    <div class="scrollUp" aria-label="Back to Top">
+      <i class="fas fa-chevron-up fa-2x"></i>
+    </div>
+
+    <footer>
+      <section class="container footer-info">
+        <!-- Contact details -->
+        <div class="about-footer">
+          <a href="index"><img src="/images/logo.png" alt="logo" /></a>
+          <p>
+            We provide technically innovative and reliable solutions to a
+            diverse environment of Healthcare Services
+          </p>
+        </div>
+        <div class="contacts">
+          <p>Contact Us</p>
+          <ul>
+            <li>
+              <i class="fas fa-phone-alt"></i
+              ><a href="tel:+27828409187" class="text-light">+27 82 840 9187</a
+              ><span> / </span
+              ><a href="tel:+27822005908" class="text-light">+27 82 200 5908</a>
+            </li>
+            <li>
+              <i class="fas fa-envelope"></i
+              ><a href="mailto:medicals@lsghealth.co.za" class="text-light"
+                >medicals@lsghealth.co.za</a
+              >
+            </li>
+          </ul>
+          <ul>
+            <li>
+              <i class="fas fa-map-marked-alt"></i>
+              <a
+                href="https://www.google.com/maps/place/LESEGO+HEALTH+SERVICES/@-25.65722,27.2408513,17z/data=!3m1!4b1!4m5!3m4!1s0x1ebe0af895555555:0xa3f75e0fddeb0409!8m2!3d-25.65722!4d27.24304"
+                >No. 83 Beneden St, Rustenburg Oos-Einde, <br />
+                Rustenburg, 2999</a
+              >
+            </li>
+            <li>
+              <i class="fas fa-map-marked-alt"></i>
+              <a href="/contact.html#limpopo"
+                >No. 3 Cathson Building, Botha Street<br />Northam, Thabazimbi,
+                0360</a
+              >
+            </li>
+          </ul>
+        </div>
+
+        <!-- Services in categories -->
+        <div class="services-footer">
+          <p>Our Sevices</p>
+          <ul>
+            <li>
+              <i class="fas fa-angle-double-right"></i>
+              <a href="#">Advisory Services on Contraceptive</a>
+            </li>
+            <li>
+              <i class="fas fa-angle-double-right"></i>
+              <a href="#">Advisory Services on Conception</a>
+            </li>
+            <li>
+              <i class="fas fa-angle-double-right"></i>
+              <a href="#">Antenatal & Postnatal</a>
+            </li>
+
+            <li>
+              <i class="fas fa-angle-double-right"></i>
+              <a href="#">Vaccination</a>
+            </li>
+          </ul>
+        </div>
+        <div class="working-hours">
+          <p>Working Hours</p>
+          <li><span>Mon - Fri</span><span> ( 08H00 - 16H30 )</span></li>
+          <li>Sat & Sun<span> ( Closed )</span></li>
+        </div>
+
+        <!-- Copyright section -->
+      </section>
+
+        <div class="copy">
+          <div class="container">
+          <div class="copyright">
+              <p><small> &copy; Lesego Health Services (PTY) LTD. </small></p>
+              <p>
+                <small> All Rights Reserved. </small>
+              </p>
+            </ul>
+          </div>
+          <p> - - - - - - - - - -</p>
+          <div class="designer">
+            <small
+              >Designed by:
+              <a
+                href="https://mabasan.co.za/"
+                target="_blank"
+                rel="noopener noreferrer"
+                >Mabasa N</a
+              >
+            </small>
+          </div>
+        </div>
+      </div>
+      
+    </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/ScrollTrigger.min.js"></script>
+
+    <script src="/main.js"></script>
+  </body>
+</html>
